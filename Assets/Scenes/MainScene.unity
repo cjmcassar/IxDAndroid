@@ -713,6 +713,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontSize
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 48660701643537783, guid: 5181365b6e45f95438adec5bfaf902de,
+        type: 3}
+      propertyPath: m_Text
+      value: Load Remote Asset (URI)
+      objectReference: {fileID: 0}
     - target: {fileID: 48868903984738792, guid: 5181365b6e45f95438adec5bfaf902de,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -1394,6 +1399,11 @@ PrefabInstance:
       value: -2.850006
       objectReference: {fileID: 0}
     - target: {fileID: 88556895580721933, guid: 5181365b6e45f95438adec5bfaf902de,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 88556895581198358, guid: 5181365b6e45f95438adec5bfaf902de,
         type: 3}
       propertyPath: m_IsActive
       value: 0
