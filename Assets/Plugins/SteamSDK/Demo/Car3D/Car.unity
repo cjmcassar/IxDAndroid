@@ -6179,7 +6179,7 @@ PrefabInstance:
     - target: {fileID: 1630590549408463744, guid: f3607423ce60e6d4ebe6a03bb93c171d,
         type: 3}
       propertyPath: apiSecret
-      value: '5c06f77eac8cab9af1a6f0929c55c84e18758f02c9268385eb1b02174c2d675e '
+      value: 5c06f77eac8cab9af1a6f0929c55c84e18758f02c9268385eb1b02174c2d675e
       objectReference: {fileID: 0}
     - target: {fileID: 7887410562919541051, guid: f3607423ce60e6d4ebe6a03bb93c171d,
         type: 3}

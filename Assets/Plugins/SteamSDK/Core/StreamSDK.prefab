@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apiKey: 4777b536d0f93d922cfce43f7b9421bbbd299d48eeab989d6f8fde971f804cb3
-  apiSecret: '5c06f77eac8cab9af1a6f0929c55c84e18758f02c9268385eb1b02174c2d675e '
+  apiSecret: 5c06f77eac8cab9af1a6f0929c55c84e18758f02c9268385eb1b02174c2d675e
   inputAxes:
   - Horizontal
   - Vertical
