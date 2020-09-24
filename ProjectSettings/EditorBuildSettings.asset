@@ -5,18 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MobileBuild.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Plugins/SteamSDK/Demo/Car3D/CarBroadcastViewer.unity
-    guid: 2eb9c952a85ac4e63b68a32975e87576
   - enabled: 0
-    path: Assets/Plugins/SteamSDK/Demo/VideoChat/VideoChat.unity
-    guid: e859d1dd69f444dbd9f1663df7f9f570
+    path: Assets/Scenes/ComputerBuild.unity
+    guid: bb0685c0ebf69194caf49e1ae2556d0b
   - enabled: 0
-    path: Assets/Plugins/SteamSDK/Demo/Base3D/Base3D.unity
-    guid: ab265ced6869148a09684a323da5d5bc
+    path: Assets/Plugins/SteamSDK/Demo/Car3D/CarController.unity
+    guid: f574fe1e5ca2e4f5883519f960f58493
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 0e9b7d41e7112154a84111c5f46c5b47,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: e0510559123d53a439a3c48e24843b85,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 19869bed52f566148b8c6349e8e4fb30,
       type: 2}
