@@ -28,7 +28,7 @@ public class SendMessage : MonoBehaviour {
     float height = 30;
     ushort maxMessagesToDisplay = 12;
 
-    string channel = "chatchannel3";
+    string channel = "chatchannel4";
 
     // Create a chat message queue so we can interate through all the messages
     Queue<GameObject> chatMessageQueue = new Queue<GameObject>();
