@@ -7,15 +7,21 @@ public class ButtonFunctions : MonoBehaviour
 {
 
     public GameObject ChatWindow;
+    public GameObject PopUpWindow;
 
-    public void Enable()
+    public void EnableChat()
     {
         ChatWindow.SetActive(true);
     }
 
-    public void Disable()
+    public void DisableChat()
     {
         ChatWindow.SetActive(false);
+    }
+
+    public void DisablePopUp()
+    {
+        PopUpWindow.SetActive(false);
     }
 
     public void ShareDesign()
@@ -40,7 +46,8 @@ public class ButtonFunctions : MonoBehaviour
 
         new NativeShare()
             .SetSubject("I want to talk about this design with you! Download Obi to view it on your Smart Device")
-            .SetText("https://install.appcenter.ms/orgs/obi-vision/apps/ixd-1/distribution_groups/internal%20test")
+            .SetText("I want to talk about this design with you! Download Obi to view it on your Smart Device: " + "iOS: https://testflight.apple.com/join/7NSzciUP"
+            + "Android: https://install.appcenter.ms/orgs/obi-vision/apps/ixd-1/distribution_groups/the%20imagination%20factory")
             .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
             .Share();
 
