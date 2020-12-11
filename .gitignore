@@ -65,7 +65,7 @@ Assets/Plugins/Pixyz/Binaries/
 Assets/Plugins/Pixyz/Samples/PiXYZ-DEMO-BRAKES.catproduct.prefab
 iOSBuild/
 Assets/AppCenter/Plugins/iOS/
-Assets/Firebase/Plugins/x86_64/FirebaseCppApp-7_0_1.dll
-Assets/Plugins/iOS/Firebase/
-Assets/StreamingAssets/
 Assets/Firebase/Plugins/x86_64/
+Assets/StreamingAssets/
+Assets/Plugins/iOS/Firebase/
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-7_0_1.so

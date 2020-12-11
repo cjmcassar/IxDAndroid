@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809563515817",
+    "firebase_url": "https://obivision-7645d-default-rtdb.firebaseio.com",
+    "project_id": "obivision-7645d",
+    "storage_bucket": "obivision-7645d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809563515817:android:8917e5cf45e70ff2bd72b8",
+        "android_client_info": {
+          "package_name": "com.Obi.obi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809563515817-63167q5elh0700mt4kia60cg81otf5r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Obi.obi",
+            "certificate_hash": "12921e7191b4ec6ae51d5400b150d6e3c7f50126"
+          }
+        },
+        {
+          "client_id": "809563515817-ebba38psjap8j6s7rtmvkruhu5872dld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMilxwr27GlOXgMwxHrHE-iC0a6JWwoX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809563515817-ebba38psjap8j6s7rtmvkruhu5872dld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "809563515817-8ghqrb7g3cut0aj5jpkfkvnc94tj2det.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Obi.Obi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
