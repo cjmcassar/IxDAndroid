@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
 using TMPro;
@@ -109,7 +110,19 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
+
+            // Delay scene change
+            StartCoroutine(TwoSecondDelay());
+
+            
         }
+    }
+
+    IEnumerator TwoSecondDelay()
+    {
+        // Wait for 2 seconds to load the next scene
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(sceneName: "MobileBuild");
     }
 
     private IEnumerator Register(string _email, string _password, string _username)
